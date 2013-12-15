@@ -1,0 +1,20 @@
+{"frames": {
+
+"RaceCar.png":
+{
+	"frame": {"x":0,"y":0,"w":12,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":20},
+	"sourceSize": {"w":12,"h":20}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "atlas_entities_0.png",
+	"format": "RGBA8888",
+	"size": {"w":32,"h":32},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2c2c5a686b1394e92b0562af69eeecf6:11762a9ba627b6cc07763616616bd077:59b9e6f8a3e69e3444f2d63140acf973$"
+}
+}

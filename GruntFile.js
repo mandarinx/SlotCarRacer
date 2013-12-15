@@ -22,6 +22,7 @@ module.exports = function (grunt) {
             src: {
                 js: 'src/js/**/*.js',
                 assets: 'src/assets/',
+                maps: 'src/assets/maps/**/*.json',
                 template: 'src/template/'
             },
             assets: {
@@ -92,8 +93,13 @@ module.exports = function (grunt) {
         },
 
         exec: {
-            main: {
-                cmd: 'TexturePacker assets/gfx/main assets/gfx/atlas_main.tps',
+            entities: {
+                cmd: 'TexturePacker assets/gfx/entities assets/gfx/atlas_entities.tps',
+                stdout: true,
+                stderr: true
+            },
+            tileset: {
+                cmd: 'TexturePacker assets/gfx/tileset assets/gfx/atlas_tileset.tps',
                 stdout: true,
                 stderr: true
             }
@@ -103,6 +109,13 @@ module.exports = function (grunt) {
             source: {
                 files: '<%= dir.src.js %>',
                 tasks: ['build'],
+                options: {
+                    livereload: true
+                }
+            },
+            maps: {
+                files: '<%= dir.src.maps %>',
+                tasks: ['copy'],
                 options: {
                     livereload: true
                 }

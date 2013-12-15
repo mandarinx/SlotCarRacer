@@ -36,7 +36,7 @@
         <key>dataFormat</key>
         <string>json</string>
         <key>textureFileName</key>
-        <filename>../../src/assets/atlas/atlas_main_{n}.png</filename>
+        <filename>../../src/assets/atlas/atlas_entities_{n}.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -127,7 +127,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../src/assets/atlas/atlas_main_{n}.json</filename>
+                <filename>../../src/assets/atlas/atlas_entities_{n}.json</filename>
             </struct>
         </map>
         <key>multiPack</key>

@@ -1,0 +1,15 @@
+﻿@font-face {
+    font-family: 'arial_rounded_mt_bold';
+    src: url('arial_rounded_bold-webfont.eot');
+    src: url('arial_rounded_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial_rounded_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+    font-family: 'arial_rounded_mt_bold';
+}
