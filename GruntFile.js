@@ -1,68 +1,105 @@
 module.exports = function (grunt) {
 
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-exec');
-    grunt.loadNpmTasks('grunt-open');
-
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
         dir: {
             deploy: {
-                root: 'deploy/',
-                js: 'deploy/js',
+                root:   'deploy/',
+                js:     'deploy/js',
                 assets: 'deploy/assets',
-                css: 'deploy/css'
+                atlas:  'deploy/assets/atlas',
+                css:    'deploy/css'
             },
             src: {
-                js: 'src/js/**/*.js',
+                root:   'src/',
+                lib:    'src/lib/',
+                js:     'src/js/**/*.js',
                 assets: 'src/assets/',
-                maps: 'src/assets/maps/**/*.json',
-                template: 'src/template/'
+                css:    'src/css/',
+                index:  'src/index.html'
             },
             assets: {
-                gfx: 'assets/gfx/**/*.png'
-            },
-            lib: {
-                js: 'lib/js/'
+                root:   'assets/',
+                atlas:  'assets/atlas/',
+                maps:   'assets/maps/**/*.json',
+                audio:  'assets/audio/'
             }
         },
 
-        clean: [
-            '<%= dir.deploy.js %>',
-            '<%= dir.deploy.assets %>',
-            '<%= dir.deploy.css %>'
-        ],
+        mkdir: {
+            all: {
+                options: {
+                    mode: 0700,
+                    create: [
+                        'assets/atlas', 'assets/maps', 'assets/audio',
+                        'deploy',
+                        'resources',
+                        'src/css', 'src/js', 'src/lib'
+                    ]
+                },
+            },
+        },
+
+        clean: ['<%= dir.deploy.root %>'],
 
         copy: {
             lib: {
                 files: [{
-                    cwd: '<%= dir.lib.js %>',
+                    cwd: '<%= dir.src.lib %>',
                     src: ['**'],
                     dest: '<%= dir.deploy.js %>',
                     expand: true
                 }]
             },
             assets: {
-                files: [{
-                    cwd: '<%= dir.src.assets %>',
-                    src: ['**'],
-                    dest: '<%= dir.deploy.assets %>',
-                    expand: true
-                }]
+                files: [
+                    {
+                        cwd: '<%= dir.assets.root %>',
+                        src: ['audio/**/*.*'],
+                        dest: '<%= dir.deploy.assets %>',
+                        expand: true
+                    },
+                    {
+                        cwd: '<%= dir.assets.root %>',
+                        src: ['maps/**/*.json'],
+                        dest: '<%= dir.deploy.assets %>',
+                        expand: true
+                    }
+                ]
             },
-            template: {
+            css: {
                 files: [{
-                    cwd: '<%= dir.src.template %>',
-                    src: ['**'],
+                    cwd: '<%= dir.src.root %>',
+                    src: ['css/**/*.*'],
                     dest: '<%= dir.deploy.root %>',
                     expand: true
                 }]
+            }
+        },
+
+        replace: {
+            index: {
+                options: {
+                    patterns: [
+                        {
+                            match: 'GameNamePretty',
+                            replacement: '<%= pkg.namePretty %>'
+                        },
+                        {
+                            match: 'GameName',
+                            replacement: '<%= pkg.name %>'
+                        }
+                    ]
+                },
+                files: [
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: ['<%= dir.src.index %>'],
+                        dest: '<%= dir.deploy.root %>'
+                    }
+                ]
             }
         },
 
@@ -92,44 +129,43 @@ module.exports = function (grunt) {
             }
         },
 
-        exec: {
+        texturepacker: {
             entities: {
-                cmd: 'TexturePacker assets/gfx/entities assets/gfx/atlas_entities.tps',
-                stdout: true,
-                stderr: true
+                targetdir: '<%= dir.deploy.atlas %>',
+                dirs: ['<%= dir.assets.atlas %>entities']
             },
             tileset: {
-                cmd: 'TexturePacker assets/gfx/tileset assets/gfx/atlas_tileset.tps',
-                stdout: true,
-                stderr: true
+                targetdir: '<%= dir.deploy.atlas %>',
+                tps: '<%= dir.assets.atlas %>tileset.tps',
+                dirs: ['<%= dir.assets.atlas %>tileset']
             }
         },
 
         watch: {
             source: {
                 files: '<%= dir.src.js %>',
-                tasks: ['build'],
+                tasks: ['updatejs'],
                 options: {
                     livereload: true
                 }
             },
             maps: {
-                files: '<%= dir.src.maps %>',
-                tasks: ['copy'],
+                files: '<%= dir.assets.maps %>',
+                tasks: ['copy:assets'],
                 options: {
                     livereload: true
                 }
             },
             atlas: {
-                files: '<%= dir.assets.gfx %>',
-                tasks: ['exec'],
+                files: '<%= dir.assets.atlas %>**/*.*',
+                tasks: ['texturepacker'],
                 options: {
                     livereload: true
                 }
             },
-            template: {
-                files: '<%= dir.src.template %>**',
-                tasks: ['build'],
+            index: {
+                files: '<%= dir.src.index %>',
+                tasks: ['replace'],
                 options: {
                     livereload: true
                 }
@@ -149,12 +185,41 @@ module.exports = function (grunt) {
 
         open: {
             dev: {
-                path: 'http://localhost/index.html'
+                path: 'http://localhost/index.html',
+                app: 'Google Chrome'
             }
         }
     });
 
-    grunt.registerTask('build', ['clean', 'concat', 'uglify', 'copy']);
-    grunt.registerTask('default', ['exec', 'build', 'connect', 'watch']);
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-open');
+    grunt.loadNpmTasks('grunt-exec');
+    grunt.loadNpmTasks('grunt-replace');
+    grunt.loadNpmTasks('grunt-mkdir');
+    grunt.loadTasks('./tasks');
 
+    grunt.registerTask('build', [
+        'concat',
+        'uglify',
+        'replace',
+        'copy'
+    ]);
+    grunt.registerTask('updatejs', [
+        'concat',
+        'uglify'
+    ]);
+    grunt.registerTask('default', [
+        'clean',
+        'texturepacker',
+        'build',
+        'connect',
+        'open',
+        'watch'
+    ]);
+    grunt.registerTask('init', ['mkdir']);
 }

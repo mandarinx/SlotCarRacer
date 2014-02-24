@@ -1,0 +1,1195 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isChecked"
+			],
+			[
+				"upd",
+				"updateAngle"
+			],
+			[
+				"tile",
+				"tileHeight"
+			],
+			[
+				"up",
+				"updateCurrentTile"
+			],
+			[
+				"next",
+				"nextIsTurn"
+			],
+			[
+				"ma",
+				"mapLayer"
+			],
+			[
+				"nex",
+				"nextTile"
+			],
+			[
+				"curr",
+				"currentTile"
+			],
+			[
+				"st",
+				"startPos"
+			],
+			[
+				"update",
+				"updateStartValues"
+			],
+			[
+				"star",
+				"startPos"
+			],
+			[
+				"atlas",
+				"atlas_main_0"
+			],
+			[
+				"fileName",
+				"fileNamePrefix"
+			],
+			[
+				"pn",
+				"png8Index"
+			],
+			[
+				"lay",
+				"layerIndex"
+			],
+			[
+				"sp",
+				"speedUp"
+			],
+			[
+				"spe",
+				"speedUp"
+			],
+			[
+				"GetC",
+				"GetColorForVertex"
+			],
+			[
+				"vert",
+				"vertices"
+			],
+			[
+				"GetVe",
+				"GetVertexForColor"
+			],
+			[
+				"Verte",
+				"VertexDataCount"
+			],
+			[
+				"Add",
+				"AddColor"
+			],
+			[
+				"color",
+				"colors"
+			],
+			[
+				"vete",
+				"vertexData"
+			],
+			[
+				"To",
+				"ToString"
+			],
+			[
+				"vertex",
+				"vertexData"
+			],
+			[
+				"GetVert",
+				"GetVertexData"
+			],
+			[
+				"temp",
+				"tempList"
+			],
+			[
+				"GetVer",
+				"GetVertexData"
+			],
+			[
+				"ver",
+				"vertIndex"
+			],
+			[
+				"Vertex",
+				"VertexData"
+			],
+			[
+				"verte",
+				"vertexData"
+			],
+			[
+				"Has",
+				"HasIndex"
+			],
+			[
+				"verti",
+				"vertices"
+			],
+			[
+				"Count",
+				"CountVerts"
+			],
+			[
+				"Vert",
+				"VertexData"
+			],
+			[
+				"tem",
+				"tempTriangles"
+			],
+			[
+				"foun",
+				"founds"
+			],
+			[
+				"Get",
+				"GetTriangle"
+			],
+			[
+				"current",
+				"currentMeshData"
+			],
+			[
+				"tri",
+				"triangles"
+			],
+			[
+				"Mesh",
+				"MeshData"
+			],
+			[
+				"mesh",
+				"meshes"
+			],
+			[
+				"GetM",
+				"GetMeshes"
+			],
+			[
+				"mes",
+				"meshes"
+			],
+			[
+				"b",
+				"backCam"
+			],
+			[
+				"Raycast",
+				"RaycastHit"
+			],
+			[
+				"anim",
+				"animProgress"
+			],
+			[
+				"mat",
+				"matOffset"
+			],
+			[
+				"tra",
+				"trajectoryViz"
+			],
+			[
+				"use",
+				"useTouch"
+			],
+			[
+				"Click",
+				"ClickedShootButton"
+			],
+			[
+				"cur",
+				"currentButton"
+			],
+			[
+				"in",
+				"inputPos"
+			],
+			[
+				"Mouse",
+				"MouseDownDelegate"
+			],
+			[
+				"M",
+				"Mouse"
+			],
+			[
+				"InputManagerRay",
+				"InputManagerRaycastHits"
+			],
+			[
+				"InputManagerR",
+				"InputManagerRaycastHits"
+			],
+			[
+				"envi",
+				"environment"
+			],
+			[
+				"Input",
+				"InputManagerRays"
+			],
+			[
+				"GetT",
+				"GetTouch"
+			],
+			[
+				"ac",
+				"actions"
+			],
+			[
+				"env",
+				"enviroMask"
+			],
+			[
+				"mou",
+				"mouseDrag"
+			],
+			[
+				"Vec",
+				"Vector2	x, y"
+			],
+			[
+				"btn",
+				"btnShoot"
+			],
+			[
+				"mouseD",
+				"mouseDownPos"
+			],
+			[
+				"m",
+				"mousePosition"
+			],
+			[
+				"Reset",
+				"ResetButtons"
+			],
+			[
+				"Conte",
+				"ContextUI"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"scre",
+				"screenPoint"
+			],
+			[
+				"Sling",
+				"SlingshotCursor"
+			],
+			[
+				"En",
+				"EntityActionType"
+			],
+			[
+				"scree",
+				"screenPos"
+			],
+			[
+				"uiEle",
+				"uiElements"
+			],
+			[
+				"Ent",
+				"EntityAction"
+			],
+			[
+				"Entity",
+				"EntityAction"
+			],
+			[
+				"Eni",
+				"EntityAction"
+			],
+			[
+				"ori",
+				"origin"
+			],
+			[
+				"mousePo",
+				"mousePosition"
+			],
+			[
+				"Scree",
+				"ScreenToWorldPoint	position"
+			],
+			[
+				"SetP",
+				"SetPosition	index, position"
+			],
+			[
+				"swi",
+				"switchToCam"
+			],
+			[
+				"trigger",
+				"triggerBack"
+			],
+			[
+				"Camera",
+				"CameraTarget"
+			],
+			[
+				"step",
+				"stepSize"
+			],
+			[
+				"norm",
+				"normalized"
+			],
+			[
+				"yell",
+				"yellowLen"
+			],
+			[
+				"blu",
+				"blueLen"
+			],
+			[
+				"vec",
+				"vector3Value"
+			],
+			[
+				"Draw",
+				"DrawHandle"
+			],
+			[
+				"behi",
+				"behindFrom"
+			],
+			[
+				"targ",
+				"targetPos"
+			],
+			[
+				"fr",
+				"fromOrtho"
+			],
+			[
+				"from",
+				"fromV3"
+			],
+			[
+				"Line",
+				"LineRestrictor"
+			],
+			[
+				"c",
+				"controller"
+			],
+			[
+				"cae",
+				"cameras"
+			],
+			[
+				"Camer",
+				"CameraTarget"
+			],
+			[
+				"cam",
+				"camList"
+			],
+			[
+				"float",
+				"floatValue"
+			],
+			[
+				"front",
+				"frontCamName"
+			],
+			[
+				"fron",
+				"frontCamName"
+			],
+			[
+				"Ta",
+				"Transform"
+			],
+			[
+				"trg",
+				"triggerFront"
+			],
+			[
+				"ent",
+				"enterFront"
+			],
+			[
+				"HotSp",
+				"HotSpotTrigger"
+			],
+			[
+				"Hot",
+				"HotSpotTrigger"
+			],
+			[
+				"Cle",
+				"Cleanup"
+			],
+			[
+				"pos",
+				"posBack"
+			],
+			[
+				"list",
+				"listener"
+			],
+			[
+				"ht",
+				"hotSpot"
+			],
+			[
+				"hot",
+				"hotSpots"
+			],
+			[
+				"Swi",
+				"SwitchToCamera"
+			],
+			[
+				"List",
+				"ListCameras"
+			],
+			[
+				"camera",
+				"cameras"
+			],
+			[
+				"lin",
+				"lineHeight"
+			],
+			[
+				"item",
+				"itemName"
+			],
+			[
+				"ite",
+				"itemName"
+			],
+			[
+				"goto",
+				"gotoEntity"
+			],
+			[
+				"rot",
+				"rotAngle"
+			],
+			[
+				"loo",
+				"lookDir"
+			],
+			[
+				"Trn",
+				"Transform"
+			],
+			[
+				"origi",
+				"originOffset"
+			],
+			[
+				"In",
+				"Input"
+			],
+			[
+				"Raycas",
+				"Raycast	ray, hitInfo, distance, layerMask"
+			],
+			[
+				"gr",
+				"gravityFactor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/js/boot.js",
+			"settings":
+			{
+				"buffer_size": 854,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/preloader.js",
+			"settings":
+			{
+				"buffer_size": 765,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/player.js",
+			"settings":
+			{
+				"buffer_size": 5544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "GruntFile.js",
+			"settings":
+			{
+				"buffer_size": 6461,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 688,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Unity3D Build System/Unity.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 553.0
+	},
+	"console":
+	{
+		"height": 127.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/tasks/texturepacker.js",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/package.json",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/deploy/index.html",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/assets/maps/test01.json",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/deploy/assets/maps/test01.json",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/GruntFile.js",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/src/template/index.html",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/src/assets/atlas/atlas_entities_0.json",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/src/assets/maps/test01.json",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/src/js/help_items.js",
+		"/Users/mandarin/Projects/Games/Slot Car Racer/SlotCarRacer/src/assets/atlas/atlas_main_0.json",
+		"/Applications/Adobe Photoshop CS6/Presets/Scripts/Export Layers To Files.jsx",
+		"/Applications/Adobe Photoshop CS6/Presets/Scripts/ExportPNG.jsx",
+		"/Applications/Adobe Photoshop CS6/Presets/Scripts/ExportLayers.jsx",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/GruntFile.js",
+		"/Users/mandarin/Downloads/MecanimTute-1/Assets/Scripts/BotControlScript.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Pro_CharPack/Male Characters/Human/MaleCharacter/MaleAI.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/__/IKCtrl.cs",
+		"/Users/mandarin/Projects/DigiPilot/Testing/MecanimTests/Assets/Scripts/IK.cs",
+		"/Users/mandarin/Projects/DigiPilot/Testing/MecanimTests/Assets/Scripts/Bazooka.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/ItemAction.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Slingshot.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/UI/SlingshotButton.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/InputManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/InventoryManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Player.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/UI/ContextUI.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Entity.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/HotSpot.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/Editor/HotSpotEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Items/GoldenKey.cs",
+		"/Applications/Unity/Unity.app/Contents/Resources/ScriptTemplates/81-C# Script-NewBehaviourScript.cs.txt",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/Editor/VertexPainter.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Shaders/LitVColor.shader",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Shaders/VertexColored.shader",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Dev/D.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/Editor/ListSubMeshEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/ListSubMesh.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/Editor/CameraSwitcher.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/SpecialCoroutines.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/GroundSnap.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/Utils.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Scripts/dfInputManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Markus/InventoryManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/dfExpressionBindingInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/UI/ActionLogger.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/MonoSingleton.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Items/SodaCan.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Items/Door.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Items/Dice.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Items/Ball.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Item.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/UI/ContextUIButton.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Inventory/Editor/ItemActionDrawer.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/StuffBase.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Stuff/Ball.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Stuff/Dice.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Stuff/SodaCan.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/UI/SlingshotCursor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/InputDevice/Mouse.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/InputDevice/Touch.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/InputMngr.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/Extensions/ColliderExtensions.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/InputDevice/InputManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/Input/Touch.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/Input/Mouse.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Core/Input/InputManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/EntityAction.cs",
+		"/Users/mandarin/Projects/Games/Princess Hunter/PrincessRepo/Assets/Scripts/PubSub/Editor/PublisherDrawer.cs",
+		"/Users/mandarin/Projects/Games/Princess Hunter/PrincessRepo/Assets/Scripts/Raycasters/CircleCast.cs",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/package.json",
+		"/Users/mandarin/Downloads/phaser-project-template-master/GruntFile.js",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/assets/gfx/atlas_config.tps",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/src/js/texture_sample.js",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/src/js/abc/texture_sample.js",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/deploy/index.html",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/src/package.json",
+		"/Users/mandarin/Downloads/phaser-master/Gruntfile.js",
+		"/Users/mandarin/Projects/Games/Postdropp/HTML5/src/GruntFile.js",
+		"/Users/mandarin/Downloads/phaser-master/package.json",
+		"/Users/mandarin/Downloads/phaser-project-template-master/package.json",
+		"/Users/mandarin/Downloads/phaser-project-template-master/src/game/game.ts",
+		"/Users/mandarin/Downloads/phaser-master/changelog.md",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfControlInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfSpriteInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Scripts/dfSprite.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Editor/EntityActionDrawer.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Editor/StuffInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Stuff.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Entities/Editor/EntityInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/Editor/CameraTargetEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Scripts/dfRadialSprite.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/UI/ContextButton.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Examples/Drag and Drop/DndExample_InventoryItem.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Examples/Drag and Drop/DnDExample_DragCursor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/Slingshot.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/SlingshotButton.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/SlingshotCursor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/_TEST/SlingshotDragCatch.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Environment/Walkable.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/CameraManager.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/CameraTarget.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Camera/CameraController.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Movement/Editor/LineRestrictorInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts/Movement/LineRestrictor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfTextureAtlasInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfTextureSpriteInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/EventBindingEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfWebSpriteInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/KeyBindingEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/PropertyBindingEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/ProxyPropertyBindingEditor.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/dfDataObjectProxyInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DataBinding/Editor/dfSpriteAnimationInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Rich Text/Editor/dfDynamicFontInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Rich Text/Editor/dfRichTextLabelInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Tweening/Editor/TweenInspectorBase.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Tweening/Editor/TweenEventBindingInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/Tweening/Editor/TweenGroupInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfSliderInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfTabPageContainerInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfTabstripInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfTextboxInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfProgressbarInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfResizeHandleInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfScriptWizard.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfScrollPanelInspector.cs",
+		"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Daikon Forge/DFGUI/Editor/dfScrollbarInspector.cs"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/mandarin/Projects/DigiPilot/Pilot/MarkusPilot/Assets/Scripts",
+			"/Users/mandarin/Projects/Games/Princess Hunter/PrincessRepo/Assets/Scripts",
+			"/Users/mandarin/Downloads/broforce/assembly",
+			"Hero.cs",
+			"/Users/mandarin/Downloads/broforce/assembly",
+			"",
+			"/Users/mandarin/Projects/Games/Princess Hunter/PrincessRepo/Assets/Scripts/Dev/MyBezier.cs",
+			"/Users/mandarin/Projects/Games/Princess Hunter/PrincessRepo/Assets/Scripts",
+			"/Users/mandarin/Projects/Hyper/Albert/AlbertRepo/Assets/Scripts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"atlas",
+			"maps",
+			"src",
+			"target_dir",
+			"coord",
+			"updateNext",
+			"currentTile",
+			"map",
+			"mapLayer",
+			"updateStartValues",
+			"zeroSuppress",
+			"Postdrop",
+			"assets",
+			"Postdrop",
+			"fileNamePrefix",
+			"fileNameBody",
+			"saveFile",
+			"ExportLayers",
+			"initExportInfo",
+			"png",
+			"fileNameSuffix",
+			"exportTexture",
+			"ExportLayersToTextures",
+			"Postdrop",
+			"nameConcat",
+			"template",
+			"postdropp",
+			"baseStateInfo",
+			"hitStateInfo",
+			"baseStateInfo",
+			"hitState",
+			"baseState",
+			"waveState",
+			"hitLayer",
+			"baseLayer",
+			"CountVerts",
+			"selectedObject",
+			"vertexData",
+			"tempVertexData",
+			"match",
+			"GetVertexData",
+			"CountVerts",
+			"public",
+			"Vector3",
+			"triangles",
+			"tempTriangles",
+			"add",
+			"Order",
+			"triangles",
+			"comparer",
+			"triangles",
+			"ExtractVertices",
+			"verts",
+			"tris",
+			"GetTriangle",
+			"vertices",
+			"VertexList",
+			"list",
+			"pattern",
+			"mesh",
+			"CameraSwitcher",
+			"InputManager",
+			"UseSlingshot",
+			"EntityActionType",
+			"EntityAction",
+			"EntityActionCallback",
+			"EntityAction",
+			"EntityActionCallback",
+			"EntityAction",
+			"EntityActionCallback",
+			"EntityAction",
+			"EntityActionType",
+			"EntityActionCallback",
+			"EntityActionType",
+			"StuffBase",
+			"stuff",
+			"StuffBase",
+			"clickedButton",
+			"touch3",
+			"mouse",
+			"OnClick",
+			"MouseUpDelegate",
+			"MouseMoveDelegate",
+			"MouseDownDelegate",
+			"currentButton",
+			"InputMngr",
+			"inputPos",
+			"OnUp",
+			"OnDown",
+			"OnUp",
+			"OnDown",
+			"mouseDrag",
+			"mouseDownPos",
+			"OnDown",
+			"MouseDownDelegate",
+			"input",
+			"Ray",
+			"rays",
+			"ray",
+			"LayerMask",
+			"ray",
+			"enviroHit",
+			"Cursor",
+			"btnShoot",
+			"mouseDown",
+			"elm",
+			"rangeRadians",
+			"btn",
+			"ContextUIButton",
+			"dfRadialSprite",
+			"uiElements",
+			"sprite",
+			"dfRadialSprite",
+			"actionType",
+			"uiElement",
+			"stepSize",
+			"angleTarget",
+			"RenderUI",
+			"phaser",
+			"sprite",
+			"atlas",
+			"dfSprite",
+			"eventID",
+			"Stuff",
+			"entity",
+			"ent",
+			"Entity",
+			"control"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/js/boot.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/preloader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "GruntFile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1099,
+								1099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 333.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								685,
+								685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "SlotCarRacer.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

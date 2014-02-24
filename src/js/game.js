@@ -19,6 +19,7 @@ SlotCar.Game.prototype = {
         var tileset = game.add.tileset('tiles');
         this.layer = game.add.tilemapLayer(0, 0, 800, 576, tileset, map, 0);
 
+        // dont use pixels in forEach. Use tiles!
         map.forEach(this.lookForStart, this, 0, 0, 800, 576);
         this.player = new SlotCar.Player(game, this.startData);
     },

@@ -52,6 +52,7 @@ SlotCar.Game.prototype = {
         var tileset = game.add.tileset('tiles');
         this.layer = game.add.tilemapLayer(0, 0, 800, 576, tileset, map, 0);
 
+        // dont use pixels in forEach. Use tiles!
         map.forEach(this.lookForStart, this, 0, 0, 800, 576);
         this.player = new SlotCar.Player(game, this.startData);
     },
@@ -307,12 +308,12 @@ SlotCar.Preloader.prototype = {
         var game = this.game;
 
         game.load.atlasJSONHash('entities',
-                                'assets/atlas/atlas_entities_0.png',
-                                'assets/atlas/atlas_entities_0.json');
+                                'assets/atlas/entities0.png',
+                                'assets/atlas/entities0.json');
         game.load.tilemap('test01',
                           'assets/maps/test01.json', null,
                           Phaser.Tilemap.TILED_JSON);
-        game.load.tileset('tiles', 'assets/atlas/atlas_tileset_0.png', 32, 32);
+        game.load.tileset('tiles', 'assets/atlas/tileset0.png', 32, 32);
     },
 
     update: function() {

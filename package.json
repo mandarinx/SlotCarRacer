@@ -1,10 +1,8 @@
 {
   "name": "SlotCarRacer",
-  "version": "1.0.0",
+  "namePretty": "Slot Car Racer",
+  "version": "0.0.1",
   "description": "Make your own track and race it!",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://mandarinx@github.com/mandarinx/SlotCarRacer.git"
@@ -20,7 +18,8 @@
     "grunt-exec": "0.4.2",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-uglify": "~0.2.4",
-    "lodash": "~2.2.1",
-    "grunt-open": "~0.2.0"
+    "grunt-open": "~0.2.0",
+    "grunt-replace": "~0.5.1",
+    "grunt-mkdir": "~0.1.1"
   }
 }
