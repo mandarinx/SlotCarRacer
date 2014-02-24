@@ -12,4 +12,12 @@ body {
     padding: 0px;
     background-color: #ccc;
     font-family: 'arial_rounded_mt_bold';
+    font-size: 67.5%;
+}
+
+div#description {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10em;
 }
